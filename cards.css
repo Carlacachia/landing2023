@@ -1,0 +1,29 @@
+.cards {
+  display : grid; 
+  grid-template-columns : 1fr 1fr; 
+  grid-gap : 6px;
+}
+
+.cards {
+  background color : yellow; 
+  padding : 10px; 
+  border-radius : 6px;
+  box-shadow : 1px 2px 4px 6px rbg (0, 0, 0.6);
+  text-align : center;
+}
+
+.cards{
+  text-align: center-right;
+}
+
+.card img {
+  height : 10px; 
+  width : 10px; 
+  object-fit : cover; 
+}
+
+
+.card-white img{
+  justify-content: center top;
+  align-items : center;
+}
